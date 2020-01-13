@@ -9,7 +9,7 @@ variable "enabled" {
   default = true
 }
 variable "tags" {
-  type = "map"
+  type = map(string)
   default = {}
   description = "Tags attached to created resources."
 }
